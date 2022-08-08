@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <title>Contas</title>
+    <link rel="stylesheet" href="contas.css">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+    <h1 class="titulo"> Lembrete <br> de <br> Contas</h1>
+
+
+    <div class="container">
+
+        <div class="new-task-container">
+
+            <input type="text" class="new-task-input" placeholder="nome da conta..." />
+            <input type="date" class="new-task-date" />
+            <input type="number" min="0" max="100" step=".01" class="new-task-value" placeholder="R$">
+
+            <button class=" new-task-button">Anotar</button>
+
+        </div>
+
+        <div class="tasks-container"></div>
+
+    </div>
+
+    <div class="total-a-pagar">
+        <p>Valor restante R$:</p>
+    </div>
+
+    <div class="total"></div>
+
+    <script src="https://kit.fontawesome.com/af6c820e75.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="meuscript.js"> </script>
+</body>
+
+</html>
